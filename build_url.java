@@ -18,7 +18,7 @@ public class build_url {
     int numdays=10;
 
 
-    String key="d29f8e905cbe35b81bac10ac84b2c0bd";
+    String key= <Google API key>;
     String urlbuild(String pin_code,String country_code) {
         final String url = "http://api.openweathermap.org/data/2.5/forecast/daily?";
 
